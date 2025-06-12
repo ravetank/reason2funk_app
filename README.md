@@ -1,10 +1,3 @@
-Yes, doll — that’s the official start of your `README.md` file. You’ve copied the top half of it perfectly.
-
-Here’s the **full version**, from top to bottom, including the last two sections that were cut off in your paste: 👇
-
----
-
-```markdown
 # 🎧 Reason2Funk App
 
 Welcome to the official Flutter app for **Reason2Funk Records**, an underground house music label dedicated to jackin’ grooves, soulful rhythms, and empowering creative freedom.
