@@ -1,0 +1,71 @@
+name: reason2funk_app
+description: Professional music discovery and studio tools app
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  
+  # OSC Communication
+  osc: ^2.0.0
+  
+  # Network & Connectivity
+  connectivity_plus: ^4.0.2
+  network_info_plus: ^4.0.2
+  
+  # State Management
+  provider: ^6.0.5
+  
+  # UI Components
+  flutter_svg: ^2.0.7
+  
+  # Native Platform Integration
+  flutter/services: # For MethodChannel
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Studio Tools Custom Icons (PNG/WebP)
+  assets:
+    - assets/icons/studio_tools/
+    - assets/icons/studio_tools/osc_control.png
+    - assets/icons/studio_tools/osc_control.webp
+    - assets/icons/studio_tools/midi_mapping.png
+    - assets/icons/studio_tools/midi_mapping.webp
+    - assets/icons/studio_tools/visuals.png
+    - assets/icons/studio_tools/visuals.webp
+    - assets/icons/studio_tools/obs_macros.png
+    - assets/icons/studio_tools/obs_macros.webp
+    - assets/icons/studio_tools/audio_routing.png
+    - assets/icons/studio_tools/audio_routing.webp
+    - assets/icons/studio_tools/live_stream.png
+    - assets/icons/studio_tools/live_stream.webp
+    - assets/icons/studio_tools/settings.png
+    - assets/icons/studio_tools/settings.webp
+    
+    # Jackson's Preset Templates
+    - assets/presets/
+    - assets/presets/jackson_setup/
+    
+    # App Branding
+    - assets/images/
+    - assets/images/logo/
+
+  # Custom Fonts (if needed)
+  fonts:
+    - family: StudioFont
+      fonts:
+        - asset: assets/fonts/studio_font_regular.ttf
+        - asset: assets/fonts/studio_font_bold.ttf
+          weight: 700
